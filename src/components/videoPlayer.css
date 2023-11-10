@@ -1,0 +1,23 @@
+.internal-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:50px;
+    position:relative;
+    width:100%;
+}
+.external-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    width:100%;
+}
+.waveform {
+  user-select: none;
+  touch-action: none; 
+  pointer-events: none; 
+}
+
+.sub{
+    color:rgb(242, 0, 255);
+}
